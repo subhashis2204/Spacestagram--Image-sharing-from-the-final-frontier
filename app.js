@@ -80,7 +80,7 @@ form.addEventListener('submit', async (e) => {
     const search = form.elements
     const x = {
         // earth_date: search.earth_date.value,
-        // api_key: 'kY1W9kSR8GjMAGPKVMgwaRMd0xkxXsGLcglBSlmB',
+        // api_key: '',
         sol: search.sol.value,
         camera: search.camera.value
     }
