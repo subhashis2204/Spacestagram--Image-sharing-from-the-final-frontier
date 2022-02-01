@@ -116,7 +116,7 @@ form.addEventListener('submit', async (e) => {
     finally {
         loader.style.visibility = 'hidden'
         if (data.length == 0)
-            container.innerText = 'Sorry! No images Found'
+            container.innerText = 'Sorry! No images Found. Try entering a higher sol value'
         else
             data.map(renderCard);
     }
